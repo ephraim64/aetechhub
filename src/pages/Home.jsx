@@ -18,20 +18,18 @@ import ScrollToTop from "../components/ScrollToTop";
 const Home = () => {
   return (
     <div className="w-full scrollbar-hide">
-      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-full md:h-[80vh] flex items-center w-full bg-radial-gradient max-md:py-20">
+      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-full md:h-[80vh] flex items-center w-full bg-radial-gradient max-md:py-10">
         <div className="w-full flex flex-col lg:flex-row lg:justify-between lg:items-center max-md:gap-10">
           <div className="w-full lg:w-1/2 max-md:items-center max-md:text-center flex flex-col gap-4 lg:gap-6 md:px-16 px-4">
             <FramerMotionText />
             <p className="text-sm md:text-lg">
-              To create a world of understanding technology, build businesses
-              with modern and advanced tech, and improve the efficiency of work
-              done.
+              To create a world of understanding technology, build businesses with modern and advanced tech, and improve the efficiency of work done.
             </p>
-            <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6">
+            <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6 max-md:w-full max-md:px-10">
               <div className="flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all">
                 <Link
                   to="/contact"
-                  className="py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2"
+                  className="py-2 px-2 lg:px-4 flex items-center gap-2"
                 >
                   Contact Us
                   <BsArrowUpRight />
@@ -40,7 +38,7 @@ const Home = () => {
               <div className="flex text-purple lg:text-xl justify-center items-center rounded-3xl border border-purple hover:scale-105 duration-500 ease-linear">
                 <Link
                   to="/contact"
-                  className="py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2"
+                  className="py-2 px-2 lg:px-4 flex items-center gap-2"
                 >
                   Enquiry
                   <PiDownloadSimple />
