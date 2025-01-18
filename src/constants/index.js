@@ -28,7 +28,7 @@ export const team = [
     {
         image: Ephraim, 
         name: "Ephraim Tetteh Apetorgbor", 
-        role: "CEO of aeTech Digital Hub",
+        role: "CEO",
         bio: "A software developer, data scientist amd machine learning developer. I am a dedicated, passionate committed multi-programmer with a deep passion for coding and security. My journey in the world of technology has been an exciting adventure, and I'm always up for the challenge of creating innovative solutions. I firmly believe believe in my skills, constantly seeking to learn grow, and contribute to the tech community while staying true to my faith-inspired principles.",
         expertise: [
             "Quality Assurance",

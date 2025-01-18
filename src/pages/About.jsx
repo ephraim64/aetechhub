@@ -38,7 +38,7 @@ const About = () => {
         <div className="bg-purple px-4 lg:px-24 py-16">
             <div className="flex flex-col items-center gap-3 py-5 text-white">
                 <h1 className="text-3xl lg:text-4xl">Meet Our Team</h1>
-                <p className="lg:px-72 max-md:text-sm text-center">Our team of skilled professionals is dedicated to understanding the uniqueness and delivering results that exceeds expectations from crafting intuitive applications to building robust systems. We are here for you.</p>
+                <p className="lg:px-72 max-md:text-sm text-center">Our team of skilled professionals is dedicated to understanding the unique needs and delivering results that exceeds expectations from crafting intuitive applications to building robust systems. We are here for you.</p>
             </div>
 
             {/* CEO Section */}
