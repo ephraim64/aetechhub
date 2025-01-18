@@ -40,7 +40,7 @@ const Service = () => {
         </div>
       </div> */}
       <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full py-10 px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
-        <div className='flex flex-col items-start lg:w-[554px] h-[201px] gap-[15px]'>
+        <div className='flex flex-col items-start w-full lg:w-[554px] h-[201px] gap-[15px]'>
           <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px] max-md:text-center'>
             Ready to start your next project?
           </h2>
@@ -63,7 +63,7 @@ const Service = () => {
           ></img>
         </div>
       </div>
-      <div className='flex flex-col items-center justify-center lg:w-full h-[201px] gap-6'>
+      <div className='flex flex-col items-center justify-center lg:w-full h-[201px] gap-6 px-4'>
           <h2 className='font-Montserrat font-normal text-3xl lg:text-[56px] leading-[52px] lg:flex-wrap max-md:text-center'>
             Our Services
           </h2>
