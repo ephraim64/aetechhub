@@ -41,7 +41,7 @@ const Service = () => {
       </div> */}
       <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full py-10 px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
         <div className='flex flex-col items-start w-full lg:w-[554px] h-[201px] gap-[15px]'>
-          <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px] max-md:text-center'>
+          <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-full lg:w-[444px] flex-wrap mb-[15px] max-md:text-center'>
             Ready to start your next project?
           </h2>
           <p className='max-md:text-center'>Send Us a message today, let’s get started on your next project.</p>
