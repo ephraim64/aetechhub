@@ -19,8 +19,7 @@ const About = () => {
     <div className="pt-4 lg:pt-16">
         <div className='flex flex-col items-center gap-4'>
             <h1 className='text-4xl text-medium'>About Us</h1>
-            <p className="text-center px-4 lg:px-44">We are dynamic tech start-up company focused on turning ideas into
-            ground-breaking solutions. By leveraging advanced technology and innovative software development, we design create products and services that solve and address real world challenges, empowerbusinesses, fuel growth and derive results.</p>
+            <p className="text-center px-4 lg:px-44">Collaboration and creativity are the art of everything we do. We believe that technology can solve real world challenges. We specialise in software development, cutting edge technology integration and tailored solutions for business of all sizes.</p>
         </div>
         <div className='grid grid-cols-1 my-10 items-center lg:grid-cols-2 gap-8 lg:gap-16 py-6 lg:py-16 px-4 lg:px-24 w-full bg-purple bg-opacity-20'>
             <div className='flex flex-col gap-4'>
@@ -39,7 +38,7 @@ const About = () => {
         <div className="bg-purple px-4 lg:px-24 py-16">
             <div className="flex flex-col items-center gap-3 py-5 text-white">
                 <h1 className="text-3xl lg:text-4xl">Meet Our Team</h1>
-                <p className="lg:px-72 max-md:text-sm text-center">To create a world of understanding technology, build businesses with modern and advanced tech and improve the efficiency of work done.</p>
+                <p className="lg:px-72 max-md:text-sm text-center">Our team of skilled professionals is dedicated to understanding the uniqueness and delivering results that exceeds expectations from crafting intuitive applications to building robust systems. We are here for you.</p>
             </div>
 
             {/* CEO Section */}
