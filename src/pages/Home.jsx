@@ -57,10 +57,10 @@ const Home = () => {
         <div className="flex flex-col items-center gap-3">
           <h1 className="text-3xl lg:text-4xl">What We Do</h1>
           <p className="px-4 max-md:text-sm lg:px-60 text-center">
-            We are dynamic tech start-up focused on turning ideas into
-            ground-breaking solutions. By leveraging advance technology and
+            We are dynamic tech start-up company focused on turning ideas into
+            ground-breaking solutions. By leveraging advanced technology and
             innovative software development, we design, create products and
-            services that solve an address real world challenges, empower
+            services that solve and address real world challenges, empower
             businesses, fuel growth and derive results.
           </p>
         </div>
@@ -100,8 +100,7 @@ const Home = () => {
         <div className="flex flex-col items-center gap-3 py-5">
           <h1 className="text-3xl lg:text-4xl">Tech We Use</h1>
           <p className="md:px-72 max-md:text-sm text-center px-4">
-            To create a world of understanding technology, build businesses with
-            modern and advanced tech and improve the efficiency of work done.
+            Have a look at some of our tech stacks we use for development.
           </p>
           <TechStackSlider />
         </div>

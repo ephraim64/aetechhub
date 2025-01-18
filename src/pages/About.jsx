@@ -19,7 +19,8 @@ const About = () => {
     <div className="pt-4 lg:pt-16">
         <div className='flex flex-col items-center gap-4'>
             <h1 className='text-4xl text-medium'>About Us</h1>
-            <p className="text-center px-4 lg:px-44">We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done.</p>
+            <p className="text-center px-4 lg:px-44">We are dynamic tech start-up company focused on turning ideas into
+            ground-breaking solutions. By leveraging advanced technology and innovative software development, we design create products and services that solve and address real world challenges, empowerbusinesses, fuel growth and derive results.</p>
         </div>
         <div className='grid grid-cols-1 my-10 items-center lg:grid-cols-2 gap-8 lg:gap-16 py-6 lg:py-16 px-4 lg:px-24 w-full bg-purple bg-opacity-20'>
             <div className='flex flex-col gap-4'>

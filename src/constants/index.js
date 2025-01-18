@@ -11,6 +11,7 @@ import Yaw from '../assets/team/yaw.jpg'
 import Ephraim from '../assets/team/ephraim.jpg'
 import Aziz from '../assets/team/Aziz.jpg'
 import Adwoa from '../assets/team/adwoa.jpg'
+import Frank from '../assets/team/img1.jpg'
 import Millicent from '../assets/team/millicent.jpg'
 import Temiperi from '../assets/projects/temiperi.png'
 import Temiperi2 from '../assets/projects/temiperi2.jpg'
@@ -496,6 +497,42 @@ export const team = [
         image: Daniel, 
         name: "Daniel Aghedo", 
         role: "UI/UX Designer",
+        bio: "Passionat entry-level UI/UX designer with one year of experience working on community-driven projects. Skilled in user-centered design, wireframing, prototyping, and usability testing, with a strong foundation in Figma. Eager to bring my creativity, problem-solving abilities, and design skills to a team where I can contribute and continue learning.",
+        expertise: [
+            "UI/UX Design",
+            "User Centric Design",
+            "Good communication skills",
+            "Proficient in Figma and Framer",  
+            "Visual design",  
+        ],
+        experience: [
+            {
+                position: "UI/UX Designer",
+                company: "Freelance and community projects",
+                duration: "2023 - present",
+                description: "Collaborated with members of a desihn community to complete various design tasks, including user research, crafting wireframes, and interactive prototypes."
+            }
+        ],
+        education: {
+            degree: "B.Sc. Library and Information Science",
+            institution: "University of Benin",
+            // year: "2018 - 2022"
+        },
+        certifications: [
+            "ALX Financial Analyst Program",
+            "KPMG virtual Experience in Audit and Assurance",
+            "PwC Virtual Experience Program in Digital Assurance"
+        ],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
+    {
+        image: Frank, 
+        name: "Frank", 
+        role: "Videographer",
         bio: "Passionat entry-level UI/UX designer with one year of experience working on community-driven projects. Skilled in user-centered design, wireframing, prototyping, and usability testing, with a strong foundation in Figma. Eager to bring my creativity, problem-solving abilities, and design skills to a team where I can contribute and continue learning.",
         expertise: [
             "UI/UX Design",
