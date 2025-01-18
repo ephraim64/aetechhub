@@ -20,8 +20,8 @@ const Service = () => {
 
   return (
     <div className='w-full'>
-      <div className='lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full bg-radial-gradient justify-between px-4 lg:px-24'>
-        <div className='flex flex-col items-start lg:w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px]'>
+      {/* <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full bg-radial-gradient py-10 justify-between px-4 lg:px-24'>
+        <div className='flex flex-col items-start lg:w-[554px] h-[201px] t-[381px] l-[132px] gap-6'>
           <h2 className='font-Montserrat font-normal text-3xl lg:text-[56px] leading-[52px] w-[444px] lg:flex-wrap max-md:text-center'>
             Our Services
           </h2>
@@ -35,10 +35,44 @@ const Service = () => {
           <img
             src={ServiceImage}
             alt='ServiceImage'
-            className='w-[580px] h-[450.1px] max-md:hidden'
+            className='w-80 lg:w-[580px] lg:h-[450.1px]'
             />
         </div>
+      </div> */}
+      <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full py-10 px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
+        <div className='flex flex-col items-start lg:w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px]'>
+          <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px] max-md:text-center'>
+            Ready to start your next project?
+          </h2>
+          <p className='max-md:text-center'>Send Us a message today, let’s get started on your next project.</p>
+            <div className='flex w-full sm:w-auto text-white lg:text-xl text-base justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all'>
+              <Link
+                to='/contact'
+                className='py-2 px-2 lg:px-4 flex items-center gap-2 w-full justify-center sm:justify-start'
+              >
+                Contact Us
+                <BsArrowUpRight />
+              </Link>
+            </div>
+        </div>
+        <div>
+          <img
+            src={ServiceImage}
+            alt='ReadyToWork'
+            className='w-80 lg:w-[580px] lg:h-[450.1px] max-md:mt-16'
+          ></img>
+        </div>
       </div>
+      <div className='flex flex-col items-center justify-center lg:w-full h-[201px] gap-6'>
+          <h2 className='font-Montserrat font-normal text-3xl lg:text-[56px] leading-[52px] lg:flex-wrap max-md:text-center'>
+            Our Services
+          </h2>
+          <p className='lg:w-[600px] max-md:text-center lg:flex-wrap'>
+            We offer and solve problems across various fields of tech. Find
+            below some of our services and advanced tech to improve the
+            efficiency of work done.
+          </p>
+        </div>
 
       {/* Services Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20 px-4 py-8 lg:py-20">
@@ -79,41 +113,6 @@ const Service = () => {
             )}
           </div>
         ))}
-      </div>
-
-      {/* CTA */}
-      <div className='lg:h-[90vh] max-[340px]:h-[60vh] max-sm:h-[50vh] md:h-[80vh] flex items-center w-full px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
-        <div className='flex flex-col items-start w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px] flex-wrap'>
-          <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px]'>
-            Ready to start your next project?
-          </h2>
-          <div className='flex flex-col sm:flex-row items-center gap-6'>
-            <div className='flex w-full sm:w-auto text-white lg:text-xl text-base justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all'>
-              <Link
-                to='/contact'
-                className='py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2 w-full justify-center sm:justify-start'
-              >
-                Contact Us
-                <BsArrowUpRight />
-              </Link>
-            </div>
-            <div className='flex w-full sm:w-auto text-purple lg:text-xl text-base justify-center items-center rounded-3xl border border-purple hover:scale-105 duration-500 ease-linear'>
-              <Link
-                to='/pricing#'
-                className='py-1 lg:py-2 px-2 lg:px-4 flex items-center gap-2 w-full justify-center sm:justify-start'
-              >
-                View Portfolio
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div>
-          <img
-            src={WebDevImage}
-            alt='ReadyToWork'
-            className='w-[580px] h-[450.1px] max-md:hidden'
-          ></img>
-        </div>
       </div>
       <ScrollToTop />
     </div>
