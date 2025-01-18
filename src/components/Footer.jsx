@@ -20,9 +20,8 @@ const Footer = () => {
             YOU DREAM, WE BUILD
           </h1>
           <p className='max-md:text-sm text-center lg:px-64'>
-            At AeTech, we bring your vision and ideas to live through cutting
-            edge technologies and innovation. You dream it, we build it -
-            seemlessly transform ideas and impactful solutions.
+            Your journey to innovation starts here, bring your vision and ideas to live through cutting
+            edge technologies and innovation. You dream it, we build it - seamlessly transforming ideas and impactful solutions.
           </p>
         </div>
         <div className='flex items-center flex-col lg:flex-row justify-between gap-6 lg:gap-20'>

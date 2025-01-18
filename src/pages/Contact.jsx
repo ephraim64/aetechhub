@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="py-4 lg:py-16">
         <div className='flex flex-col items-center gap-4'>
             <h1 className='text-4xl text-medium'>Contact Us</h1>
-            <p className="text-center px-4 lg:px-44">We offer and solve problems across various fields of tech. Find below some of our services and advanced tech and improve the efficiency of work done.</p>
+            <p className="text-center px-4 lg:px-44">We're here to help! Whether you have a question, need support, or want to discuss how we can bring your ideas to life, feel free to reach out.</p>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 py-6 lg:py-16 px-4 lg:px-24 w-full'>
             <div className="flex flex-col gap-8">
