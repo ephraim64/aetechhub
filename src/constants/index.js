@@ -74,7 +74,7 @@ export const team = [
     },
     {
         image: Samuella, 
-        name: "Samuella Langosh", 
+        name: "Samuella Arthur", 
         role: "General Manager",
         bio: "A passionate engineer with over 8 years of experience in quality assurance and product development. Specializing in automated testing frameworks and continuous integration pipelines.",
         expertise: [
