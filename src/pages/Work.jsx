@@ -18,7 +18,7 @@ const Work = () => {
           <p className='max-md:text-center'>Explore the projects that define innovation and excellence.</p>
             <div className='flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all max-md:w-full'>
               <Link
-                to='/contact'
+                to=''
                 className='py-2 px-2 lg:px-4 flex items-center gap-2'
               >
                 View Portfolio

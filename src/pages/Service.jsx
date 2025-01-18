@@ -40,20 +40,20 @@ const Service = () => {
         </div>
       </div> */}
       <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full py-10 px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
-        <div className='flex flex-col items-start lg:w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px]'>
+        <div className='flex flex-col items-start lg:w-[554px] h-[201px] gap-[15px]'>
           <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-[444px] flex-wrap mb-[15px] max-md:text-center'>
             Ready to start your next project?
           </h2>
           <p className='max-md:text-center'>Send Us a message today, let’s get started on your next project.</p>
-            <div className='flex w-full text-white lg:text-xl text-base justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all'>
+          <div className='flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all max-md:w-full'>
               <Link
                 to='/contact'
-                className='py-2 px-2 lg:px-4 flex items-center gap-2 w-full justify-center sm:justify-start'
+                className='py-2 px-2 lg:px-4 flex items-center gap-2'
               >
                 Contact Us
                 <BsArrowUpRight />
               </Link>
-            </div>
+          </div>
         </div>
         <div>
           <img
