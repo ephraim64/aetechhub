@@ -31,7 +31,7 @@ const techStacks = [
 
 const TechStackSlider = () => {
   return (
-    <div className="w-full py-8 px-4 lg:px-16">
+    <div className="w-full py-6 lg:py-8 px-4 lg:px-16">
       <Swiper
         modules={[Autoplay, Pagination]}
         spaceBetween={30}
@@ -69,9 +69,9 @@ const TechStackSlider = () => {
               <img
                 src={tech.icon}
                 alt={tech.name}
-                className="w-16 h-16 object-contain"
+                className="w-10 h-10 md:w-16 md:h-16 object-contain"
               />
-              <h3 className="text-lg font-medium text-center">{tech.name}</h3>
+              <h3 className="lg:text-lg font-medium text-center max-md:flex-wrap">{tech.name}</h3>
             </div>
           </SwiperSlide>
         ))}

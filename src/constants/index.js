@@ -23,6 +23,12 @@ import Nii2 from '../assets/projects/nii2.jpg'
 import Nii3 from '../assets/projects/nii3.jpg'
 import Nii from '../assets/projects/nii.png'
 import Cepta from '../assets/projects/cepta.jpg'
+import { FaCode, FaLaptopCode, FaDatabase, FaDraftingCompass, FaChalkboardTeacher, FaCogs } from 'react-icons/fa';
+import { MdAppShortcut, MdOutlineCampaign } from 'react-icons/md';
+import { AiOutlineTool } from 'react-icons/ai';
+import { FiShield } from 'react-icons/fi';
+import { RiPlugFill } from 'react-icons/ri';
+import { GiFeather } from 'react-icons/gi';
 
 export const team = [
     {
@@ -574,19 +580,19 @@ export const head =[
 ]
 
 export const services = [
-    {title: "Software Development", skills: ["Frontend Development", "Backend Development","Fullstack Development", "UI/UX Development"]},
-    {title: "Web Development", skills: ["Developing dynamic and interactive web application.", "Implementing features like e-commerce, content, management systems or SASS platforms.","Developing server-side logic, APIs and Databases.", "Implementing functionalities like authentication, data processing and business logic."]},
-    {title: "App Development", skills: ["Android", "IOS", "Cross Platform"]},
-    {title: "Product Design", skills: ["Customer made design."]},
-    {title: "Software Maintenance and Upgrade", skills: ["Providing ongoing support and updates to ensure software functionality.", "Implementing features enhancements and security patterns.", "Monitoring & resolving post-deployment issues."]},
-    {title: "Custom Software Solutions", skills: ["Android", "IOS", "Cross Platform"]},
-    {title: "CyberSecurity Implementation", skills: ["Ensuring software security through encryption, authentication and vulnerability testing.", "Protecting applications against cyber threats."]},
-    {title: "Database Management", skills: ["Designing, creating and maintaining database.", "Ensuring data security, scalability and performance.", "Using relational (eg. MySQL, PostgreSQL, MongoDB, Firebase database."]},
-    {title: "Integration with third-party Systems", skills: ["Connecting software with APIs, tools, and services like Payment gateways, CRMs and ERDs", "Ensuring seamless interoperability between systems."]},
-    {title: "Marketting", skills: ["Social Media Marketting", "Digital Marketting"]},
-    {title: "Branding", skills: ["Brand Identity Design"]},
-    {title: "Cyber Education", skills: ["Cyber Security Training"]},
-]
+  { title: "Software Development", skills: ["Frontend Development", "Backend Development", "Fullstack Development", "UI/UX Development"], icon: FaCode },
+  { title: "Web Development", skills: ["Developing dynamic and interactive web application.", "Implementing features like e-commerce, content, management systems or SASS platforms.","Developing server-side logic, APIs and Databases.", "Implementing functionalities like authentication, data processing and business logic."], icon: FaLaptopCode },
+  { title: "App Development", skills: ["Android", "IOS", "Cross Platform"], icon: MdAppShortcut },
+  { title: "Product Design", skills: ["Customer made design."], icon: FaDraftingCompass },
+  { title: "Software Maintenance and Upgrade", skills: ["Providing ongoing support and updates to ensure software functionality.", "Implementing features enhancements and security patterns.", "Monitoring & resolving post-deployment issues."], icon: FaCogs },
+  { title: "Custom Software Solutions", skills: ["Android", "IOS", "Cross Platform"], icon: AiOutlineTool },
+  { title: "CyberSecurity Implementation", skills: ["Ensuring software security through encryption, authentication and vulnerability testing.", "Protecting applications against cyber threats."], icon: FiShield },
+  { title: "Database Management", skills: ["Designing, creating and maintaining database.", "Ensuring data security, scalability and performance.", "Using relational (eg. MySQL, PostgreSQL, MongoDB, Firebase database."], icon: FaDatabase },
+  { title: "Integration with third-party Systems", skills: ["Connecting software with APIs, tools, and services like Payment gateways, CRMs and ERDs", "Ensuring seamless interoperability between systems."], icon: RiPlugFill },
+  { title: "Marketing", skills: ["Social Media Marketing", "Digital Marketing"], icon: MdOutlineCampaign },
+  { title: "Branding", skills: ["Brand Identity Design"], icon: GiFeather },
+  { title: "Cyber Education", skills: ["Cyber Security Training"], icon: FaChalkboardTeacher },
+];
 
 export const work = [
     {

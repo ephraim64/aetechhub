@@ -9,13 +9,13 @@ import WebDevImage from '../assets/WebDevImage.jpg';
 import ScrollToTop from '../components/ScrollToTop';
 
 const Service = () => {
-
-    const [expandedItems, setExpandedItems] = useState([]);
+  const [expandedItems, setExpandedItems] = React.useState({});
 
   const toggleExpand = (id) => {
-    setExpandedItems((prev) =>
-      prev.includes(id) ? prev.filter((item) => item !== id) : [...prev, id]
-    );
+    setExpandedItems((prev) => ({
+      ...prev,
+      [id]: !prev[id], // Toggle the state for the specific card
+    }));
   };
 
   return (
@@ -41,38 +41,38 @@ const Service = () => {
       </div>
 
       {/* Services Section */}
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20 px-4 py-8 lg:py-20'>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-20 px-4 py-8 lg:py-20">
         {services.map((item, id) => (
           <div
-          key={id}
-            className='px-4 py-6 border-[1px] border-[#232323] transition-all duration-300 ease-linear delay-200 hover:bg-[#ff42b002] hover:bg-opacity-5 hover:shadow-md hover:border-transparent hover:duration-500 rounded-[10px] flex flex-col gap-4 cursor-pointer'
+            key={id}
+            className="px-4 py-6 border-[1px] border-[#232323] transition-all duration-300 ease-linear delay-200 hover:bg-[#ff42b002] hover:bg-opacity-5 hover:shadow-md hover:border-transparent hover:duration-500 rounded-[10px] flex flex-col gap-4 cursor-pointer"
           >
-            <div className='p-2 text-4xl rounded-xl bg-pink text-white w-fit'>
-              {item.icon}
+            <div className="p-2 text-4xl rounded-xl bg-pink text-white w-fit">
+              <item.icon />
             </div>
-            <h1 className='text-xl font-medium'>{item.title}</h1>
-            <ol className='list-none space-y-2'>
+            <h1 className="text-xl font-medium">{item.title}</h1>
+            <ol className="list-none space-y-2">
               {item.skills
-                .slice(0, expandedItems[id] ? undefined : 2)
+                .slice(0, expandedItems[id] ? undefined : 2) // Check state for the correct card
                 .map((skill, skillId) => (
-                  <li key={skillId} className='text-sm flex items-start gap-2'>
-                    <span className='text-purple mt-1'>•</span>
+                  <li key={skillId} className="text-sm flex items-start gap-2">
+                    <span className="text-purple mt-1">•</span>
                     <span>{skill}</span>
                   </li>
                 ))}
             </ol>
             {item.skills.length > 2 && (
               <button
-                onClick={() => toggleExpand(id)}
-                className='text-purple text-sm flex items-center gap-1 hover:text-pink transition-colors duration-300'
+                onClick={() => toggleExpand(id)} // Pass the current card's ID
+                className="text-purple text-sm flex items-center gap-1 hover:text-pink transition-colors duration-300"
               >
                 {expandedItems[id] ? (
                   <>
-                    Hide <IoIosArrowUp className='text-lg' />
+                    Hide <IoIosArrowUp className="text-lg" />
                   </>
                 ) : (
                   <>
-                    Read More <IoIosArrowDown className='text-lg' />
+                    Read More <IoIosArrowDown className="text-lg" />
                   </>
                 )}
               </button>
@@ -80,6 +80,7 @@ const Service = () => {
           </div>
         ))}
       </div>
+
       {/* CTA */}
       <div className='lg:h-[90vh] max-[340px]:h-[60vh] max-sm:h-[50vh] md:h-[80vh] flex items-center w-full px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
         <div className='flex flex-col items-start w-[554px] h-[201px] t-[381px] l-[132px] gap-[15px] flex-wrap'>

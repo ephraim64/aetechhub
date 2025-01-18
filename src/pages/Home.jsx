@@ -18,8 +18,8 @@ import ScrollToTop from "../components/ScrollToTop";
 const Home = () => {
   return (
     <div className="w-full scrollbar-hide">
-      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-[70vh] md:h-[80vh] flex items-center w-full bg-radial-gradient ">
-        <div className="w-full flex justify-between items-center">
+      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-full md:h-[80vh] flex items-center w-full bg-radial-gradient max-md:py-20">
+        <div className="w-full flex flex-col lg:flex-row lg:justify-between lg:items-center max-md:gap-10">
           <div className="w-full lg:w-1/2 max-md:items-center max-md:text-center flex flex-col gap-4 lg:gap-6 md:px-16 px-4">
             <FramerMotionText />
             <p className="text-sm md:text-lg">
@@ -27,7 +27,7 @@ const Home = () => {
               with modern and advanced tech, and improve the efficiency of work
               done.
             </p>
-            <div className="flex items-center gap-6">
+            <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6">
               <div className="flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all">
                 <Link
                   to="/contact"
@@ -48,7 +48,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="w-1/2 h-full max-md:hidden scrollbar-hide">
+          <div className="w-full flex justify-center lg:w-1/2 h-full scrollbar-hide">
             <AnimatedImages />
           </div>
         </div>
@@ -115,7 +115,7 @@ const Home = () => {
             ))}
           </div>
           <Link to="/work">
-            <button className="border border-purple py-2 text-purple text-xl font-semibold px-16 rounded-3xl hover:bg-gradient-to-r hover:from-pink hover:to-purple hover:text-white hover:scale-105 duration-500 ease-linear">
+            <button className="border border-purple py-2 text-purple md:text-xl font-semibold px-10 md:px-16 rounded-3xl hover:bg-gradient-to-r hover:from-pink hover:to-purple hover:text-white hover:scale-105 duration-500 ease-linear">
               View All
             </button>
           </Link>

@@ -29,7 +29,7 @@ const ScrollToTop = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 bg-purple hover:bg-pink p-3 rounded-full text-white transition-all duration-300 z-50"
+          className="fixed bottom-8 right-8 bg-gradient-to-t from-purple to-pink hover:bg-gradient-to-b hover:from-purple hover:to-pink hover p-3 rounded-full text-white transition-all duration-300 z-50"
         >
           <IoIosArrowUp size={24} />
         </button>
