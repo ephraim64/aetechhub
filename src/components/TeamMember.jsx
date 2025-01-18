@@ -30,7 +30,7 @@ const TeamMember = ({ member, onClose }) => {
               </div>
               <div className="w-full md:w-2/3 flex flex-col gap-4">
                 <div className="text-center md:text-left">
-                  <h2 className="text-3xl font-bold">{member.name}</h2>
+                  <h2 className="text-2xl font-semibold">{member.name}</h2>
                   <p className="text-purple font-medium text-xl mt-1">{member.role}</p>
                 </div>
                 <p className="text-gray-600">{member.bio}</p>

@@ -20,25 +20,6 @@ const Service = () => {
 
   return (
     <div className='w-full'>
-      {/* <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full bg-radial-gradient py-10 justify-between px-4 lg:px-24'>
-        <div className='flex flex-col items-start lg:w-[554px] h-[201px] t-[381px] l-[132px] gap-6'>
-          <h2 className='font-Montserrat font-normal text-3xl lg:text-[56px] leading-[52px] w-[444px] lg:flex-wrap max-md:text-center'>
-            Our Services
-          </h2>
-          <p className='lg:w-[528px] flex-wrap'>
-            We offer and solve problems across various fields of tech. Find
-            below some of our services and advanced tech to improve the
-            efficiency of work done.
-          </p>
-        </div>
-        <div >
-          <img
-            src={ServiceImage}
-            alt='ServiceImage'
-            className='w-80 lg:w-[580px] lg:h-[450.1px]'
-            />
-        </div>
-      </div> */}
       <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full py-10 px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
         <div className='flex flex-col items-start w-full lg:w-[554px] h-[201px] gap-[15px]'>
           <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-full lg:w-[444px] flex-wrap mb-[15px] max-md:text-center'>

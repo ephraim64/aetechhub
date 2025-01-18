@@ -22,6 +22,7 @@ import Malawi3 from '../assets/projects/malawi3.jpg'
 import Nii2 from '../assets/projects/nii2.jpg'
 import Nii3 from '../assets/projects/nii3.jpg'
 import Nii from '../assets/projects/nii.png'
+import Test from '../assets/testimonial/img1.png'
 import Cepta from '../assets/projects/cepta.jpg'
 import { FaCode, FaLaptopCode, FaDatabase, FaDraftingCompass, FaChalkboardTeacher, FaCogs } from 'react-icons/fa';
 import { MdAppShortcut, MdOutlineCampaign } from 'react-icons/md';
@@ -593,6 +594,44 @@ export const services = [
   { title: "Branding", skills: ["Brand Identity Design"], icon: GiFeather },
   { title: "Cyber Education", skills: ["Cyber Security Training"], icon: FaChalkboardTeacher },
 ];
+
+export const testimonials = [
+    {
+      id: 1,
+      image: Test,
+      name: 'Jane Doe',
+      position: 'CEO, Example Inc.',
+      message: 'This team exceeded all our expectations. Their innovative approach and professionalism were unparalleled.',
+    },
+    {
+      id: 2,
+      name: 'John Smith',
+      image: Test,
+      position: 'Manager, Tech Solutions',
+      message: 'Working with this team was a fantastic experience. They delivered results on time and beyond expectations.',
+    },
+    {
+      id: 3,
+      name: 'Sarah Lee',
+      image: Test,
+      position: 'Founder, StartUp Hub',
+      message: 'Their attention to detail and commitment to quality are unmatched. Highly recommended!',
+    },
+    {
+      id: 4,
+      name: 'John Smith',
+      image: Test,
+      position: 'Manager, Tech Solutions',
+      message: 'Working with this team was a fantastic experience. They delivered results on time and beyond expectations.',
+    },
+    {
+      id: 5,
+      name: 'Sarah Lee',
+      image: Test,
+      position: 'Founder, StartUp Hub',
+      message: 'Their attention to detail and commitment to quality are unmatched. Highly recommended!',
+    },
+  ];
 
 export const work = [
     {
