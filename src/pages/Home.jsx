@@ -1,5 +1,3 @@
-import React from "react";
-import Hero from "../assets/hero.png";
 import { Link } from "react-router-dom";
 import { BsArrowUpRight } from "react-icons/bs";
 import { PiDownloadSimple } from "react-icons/pi";
@@ -10,15 +8,15 @@ import {
 } from "react-icons/hi";
 import { head, work } from "../constants";
 import FramerMotionText from "../components/FramerMotionText";
-import AnimatedImages from "../components/AnimatedImages";
 import TechStackSlider from "../components/TechStackSlider";
 import ProjectCard from "../components/ProjectCard";
 import ScrollToTop from "../components/ScrollToTop";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
     <div className="w-full scrollbar-hide">
-      <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-full md:h-[80vh] flex items-center w-full bg-radial-gradient max-md:py-10">
+      {/* <div className="lg:h-[90vh] max-[340px]:h-[90vh] max-sm:h-full md:h-[80vh] flex items-center w-full bg-radial-gradient max-md:py-10">
         <div className="w-full flex flex-col lg:flex-row lg:justify-between lg:items-center max-md:gap-10">
           <div className="w-full lg:w-1/2 max-md:items-center max-md:text-center flex flex-col gap-4 lg:gap-6 md:px-16 px-4">
             <FramerMotionText />
@@ -50,7 +48,8 @@ const Home = () => {
             <AnimatedImages />
           </div>
         </div>
-      </div>
+      </div> */}
+      <Hero />
       <div className="py-16">
         <div className="flex flex-col items-center gap-3">
           <h1 className="text-3xl lg:text-4xl">What We Do</h1>

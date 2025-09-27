@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import { CgMenu } from "react-icons/cg";
 import { AiOutlineClose } from "react-icons/ai";
@@ -14,11 +13,11 @@ const Navbar = () => {
     }
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg">
+    <nav className="absolute left-[15%] top-10 border border-gray-50 z-50 py-3 backdrop-blur-lg rounded-full w-[70%] mx-auto ">
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
                 <Link to="/" className="flex items-center flex-shrink-0">
-                    <img src={logo} alt="" className='w-16 mr-1'/>
+                    <img src={logo} alt="" className='w-8 lg:w-12 mr-1'/>
                 </Link>
                 <ul className="hidden lg:flex ml-14 space-x-12 font-medium text-lg">
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/">Home</Link></li>
@@ -27,7 +26,7 @@ const Navbar = () => {
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/service">Service</Link></li>
                     <li onClick={toggleNavbar} className='hover:text-purple duration-300 ease-in'><Link to="/work">Our Works</Link></li>
                 </ul>
-                <div onClick={toggleNavbar} className="hidden lg:flex text-white text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-110 duration-500 ease-linear">
+                <div onClick={toggleNavbar} className="hidden lg:flex text-xl justify-center items-center bg-white text-black hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-110 duration-500 ease-linear">
                     <Link to="/contact" className='py-2 px-4 flex items-center gap-2'>
                     Contact Us
                     <BsArrowUpRight />
