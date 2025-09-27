@@ -45,7 +45,7 @@ const TestimonialSlider = () => {
           {testimonials.map((testimonial) => (
             <SwiperSlide key={testimonial.id} >
                 <div className="flex flex-row-reverse justify-center rounded-lg shadow-lg">
-                <img src={testimonial.image} alt="" className='w-44 lg:w-60' />
+                <img src={testimonial.image} alt="" className='w-44 h-60 lg:w-60' />
                 <div className="bg-white p-4 max-w-lg flex flex-col gap-3">
                     <div>
                         <h2 className="mt-4 lg:text-xl font-semibold text-purple">{testimonial.name}</h2>

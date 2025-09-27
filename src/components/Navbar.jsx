@@ -13,7 +13,7 @@ const Navbar = () => {
     }
 
   return (
-    <nav className="absolute left-[15%] top-10 border border-gray-50 z-50 py-3 backdrop-blur-lg rounded-full w-[70%] mx-auto ">
+    <nav className="absolute left-[15%] top-10 border border-violet-400 z-50 lg:py-3 backdrop-blur-lg rounded-full w-[70%] mx-auto ">
         <div className="container px-4 mx-auto relative text-sm">
             <div className="flex justify-between items-center">
                 <Link to="/" className="flex items-center flex-shrink-0">
