@@ -8,6 +8,7 @@ import Work from './pages/Work'
 import Pricing from './pages/Pricing'
 import Footer from './components/Footer'
 import About from './pages/About'
+import CardCta from './components/CardCta'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         <Route path='/work' element={<Work />} />
         <Route path='/pricing' element={<Pricing />} />
       </Routes>
+      <CardCta />
       <Footer />
     </div>
   )

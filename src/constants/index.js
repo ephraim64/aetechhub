@@ -1,18 +1,11 @@
 import Project from '../assets/project.png'
 import Samuella from '../assets/team/Samuella.jpg'
-import Stedan from '../assets/team/Stedan.png'
-import Obed from '../assets/team/Obed.jpg'
-import Ken from '../assets/team/Ken.jpg'
 import Godwin from '../assets/team/Godwin.jpg'
 import Daniel from '../assets/team/img3.jpg'
 import Gabriel from '../assets/team/gabriel.jpg'
-import Derrick from '../assets/team/derrick.jpg'
-import Yaw from '../assets/team/yaw.jpg'
 import Ephraim from '../assets/team/ephraim.jpg'
-import Aziz from '../assets/team/Aziz.jpg'
-import Adwoa from '../assets/team/adwoa.jpg'
 import Frank from '../assets/team/img1.jpg'
-import Millicent from '../assets/team/millicent.jpg'
+import victoria from '../assets/team/victoria.JPG'
 import Temiperi from '../assets/projects/temiperi.png'
 import Temiperi2 from '../assets/projects/temiperi2.jpg'
 import Temiperi3 from '../assets/projects/temiperi3.jpg'
@@ -126,308 +119,54 @@ export const team = [
             twitter: "https://twitter.com/rlangosh"
         }
     },
-    // {
-    //     image: Stedan, 
-    //     name: "Stedan Ampofo", 
-    //     role: "Software engineer",
-    //     bio: "A passionate engineer with over 3 years of experience in quality and highly optimized software development, with specializing in automated testing frameworks and continuous integration pipelines.",
-    //     expertise: [
-    //         "Database management",
-    //         "Frontend development",
-    //         "CI/CD Implementation",
-    //         "Performance Testing",
-    //         "API Testing"
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Intern",
-    //             company: "Foundervine-Accra",
-    //             duration: "Septermber 2024-December 2024.",
-    //             description: "Lead a team of 5 QA engineers, implemented automated testing frameworks that reduced testing time by 60%"
-    //         },
-    //         {
-    //             position: "Frontend developer",
-    //             company: "Aetech Hub",
-    //             duration: "2024 - present",
-    //             description: "Involved in the development of highly optimal frontend applications."
-    //         }
-    //     ],
-    //     education: {
-    //         degree: "B.Sc. Software Engineering",
-    //         institution: "Ghana Communication Technology University",
-    //         // year: "2016"
-    //     },
-    //     certifications: [
-    //         "Web building with WordPress"
-    //     ],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Godwin, 
-    //     name: "Godwin Francis Sefa", 
-    //     role: "Finance Officer",
-    //     bio: "Detailed oreinted accounting professional witth two years of experience in accounts and audit firm, focusing on financial statement preparation, account reconcilation and budget management. Skilled in ensuring compliance with accounting standards and streamlining reporting processes to improve efficiency.",
-    //     expertise: [
-    //         "Budget management and forecasting",
-    //         "Financial Data Analysis",
-    //         "Financial Statement Preparation",
-    //         "Tax Preparation and Filing",
-    //         "Account Reconcilation"
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Finance Officer",
-    //             company: "Bargains Center Limited",
-    //             duration: "2023 - 2024",
-    //             description: "Oversaw all accounting functions, including general ledger management, financial statement preparation, and month-end closing processes."
-    //         },
-    //         {
-    //             position: "Audit Associate",
-    //             company: "SNG Pedabo Associates",
-    //             duration: "2022 - 2024",
-    //             description: "Assisted in conducting external audits for a range of clients, including private, external and non-profit organizations."
-    //         },
-    //     ],
-    //     education: {
-    //         degree: "B.Sc. Business Adminstration",
-    //         institution: "Kwame Nkrumah University of Science and Technology",
-    //         // year: "2018 - 2022"
-    //     },
-    //     certifications: [
-    //         "ALX Financial Analyst Program",
-    //         "KPMG virtual Experience in Audit and Assurance",
-    //         "PwC Virtual Experience Program in Digital Assurance"
-    //     ],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Derrick, 
-    //     name: "Boateng Derrick", 
-    //     role: "Graphic designer",
-    //     bio: "Relevant Coursework: Calculus I, Programming I(C++) & II (Java, Python, C#, PHP, JavaScript), Data Structures & Algorithms, Web Technologies & Development, Advanced Web Technologies, Software Engineering I, Microsoft Office Productivity Tools (Word, Excel, PowerPoint), UI/UX Designing and Graphic Designing.",
-    //     expertise: [
-    //         "UI/UX Designing",
-    //         "Graphic Designing",
-    //         "Database management",
-    //         "Frontend development",
-    //         "Video Editing",
-    //         "API Testing",
-    //         "Quality Assurance",
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Senior QA Engineer",
-    //             company: "Transactshield Africa",
-    //             duration: "MArch 2024-August 2024",
-    //             description: "Collaborated with a Team member on designing the user interface and user experience for the project platform."
-    //         },
-    //     ],
-    //     education: {
-    //         degree: "B.Sc. Information Technology",
-    //         institution: "University of Ghana",
-    //         // year: "2026"
-    //     },
-    //     certifications: [],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Obed, 
-    //     name: "Tsibu Konan Obed", 
-    //     role: "Graphic Designer",
-    //     bio: "Seeking a position where I can utilize my design expertise to deliver impactful visuals that align with company goals, improve user experience, and contribute to achieving marketing and branding objectives.",
-    //     expertise: [
-    //         "Graphic designing",
-    //         "Photography",
-    //         "Solid understanding of social media platforms.",
-    //         "Logo designing",
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Intern",
-    //             company: "Ghana Revenue Authority",
-    //             duration: "June 2019 - August 2019",
-    //             description: "Managed taxpayer data, performed data entry, and assisted in the preparation of tax returns."
-    //         },
-    //     ],
-    //     education: {
-    //         degree: "Bsc. degree",
-    //         institution: "University of Ghana.",
-    //         // year: "2022-2026"
-    //     },
-    //     certifications: [
-    //         "Certification in Graphic Design",
-    //     ],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Adwoa, 
-    //     name: "Adwoa Serwaa Djan", 
-    //     role: "PRO and Marketer",
-    //     bio: "Dedicated to pursuing a diplomatic career with the ultimate aim to serving as an ambassador, fostering global cooperation, and addressing international challenges through diplomatic channels.",
-    //     expertise: [
-    //         "Solid understanding of social media platforms.",
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Intern",
-    //             company: "Spain Ghana Chamber of Commerce",
-    //             duration: "March 2024 - April 2024",
-    //             description: "Supported administrative tasks including maintaining records, handling correspondence, and managing schedules."
-    //         },
-    //         {
-    //             position: "Assistant Project Manager",
-    //             company: "Association of Africa Universities",
-    //             duration: "March 2024 - April 2024",
-    //             description: "Helped to organize the Moodle LMS Workshop in Ghana."
-    //         },
-    //     ],
-    //     education: {
-    //         degree: "MA International Affairs and Diplomacy",
-    //         institution: "University of Ghana.",
-    //         // year: "2023 - 2024"
-    //     },
-    //     certifications: [
-    //         ,
-    //     ],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Millicent, 
-    //     name: "Millicent Ewurama Amoako", 
-    //     role: "Marketting and Brand Strategist",
-    //     bio: "A highly adaptable and goal-driven with strong verbal communication, interpersonal, and data management skills. I am a team-oreinted professional with excellent organizational and problem-solving abilities. I thrive in fast-paced environments and collaborate effectively with others to acheive goals efficiently and successfully.",
-    //     expertise: [
-    //         "Good verbal and communication skills",
-    //         "Proficient in Microsoft Word and PowerPoint",
-    //         "Proficient in data entry",
-    //         "Solid Understanding of social media platforms and engagement strategies",
-    //         "API Testing"
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Intern",
-    //             company: "Ghana Revenue Authority",
-    //             duration: "2019-Present",
-    //             description: "Participated in outdoor compliance activities, enhancing taxpayer outreach and engagement."
-    //         },
-    //         {
-    //             position: "Part-Time Personal Assistant. (Content Creation).",
-    //             company: "Kwadwo Sheldon Studios",
-    //             duration: "2022-2022",
-    //             description: "Managed production equipment and aided in YouTube uploads, contributing to an increase in content engagement."
-    //         },
-    //         {
-    //             position: "National Service Personnel (Finance & Economic Cluster Committee)",
-    //             company: "Parliament House of Ghana",
-    //             duration: "2022-2023",
-    //             description: "Facilitated correspondence distribution and meeting observations, strengthening interdepartmental communication."
-    //         },
-    //     ],
-    //     education: {
-    //         degree: "Master of Arts (M.A.) in International Affairs",
-    //         institution: "University of Ghana",
-    //         // year: "2023 - 2024"
-    //     },
-    //     // certifications: [
-    //     //     "AWS Certified Developer",
-    //     //     "ISTQB Advanced Level Test Automation Engineer",
-    //     //     "Selenium Certified Professional"
-    //     // ],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Yaw, 
-    //     name: "Dickson Daniel Peprah", 
-    //     role: "Software Engineer",
-    //     bio: "A highly skilled full-stack web developer with a strong focus on frontend technologies. Proficient in HTML, CSS, JavaScript, React, TailwindCSS, Next.js, TypeScript, and more. Adept at building highly optimized web applications, with a keen eye for detail and a commitment to prioritizing client and employer needs. Excellent communicator with the ability to quickly adapt to new environments and technologies.",
-    //     expertise: [
-    //         "Backend application development",
-    //         "Frontend application development",
-    //         "Database administration",
-    //         "API Testing"
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Freellance web developer",
-    //             company: "Silverback IT solutions.",
-    //             duration: "July 2024 -November 2024.",
-    //             description: "- Develop highly optimized web applications for various clients using modern web development technologies."
-    //         },
-    //         {
-    //             position: "Software engineer",
-    //             company: "Aetech Hub",
-    //             duration: "2017-2020",
-    //             description: "Developed and maintained test suites for web and mobile applications"
-    //         }
-    //     ],
-    //     education: {
-    //         degree: "B.Sc. Information Technology.",
-    //         institution: "University of Ghana",
-    //         // year: "2016"
-    //     },
-    //     certifications: [
-    //         "AWS Certified Developer",
-    //         "ISTQB Advanced Level Test Automation Engineer",
-    //         "Selenium Certified Professional"
-    //     ],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
-    // {
-    //     image: Aziz, 
-    //     name: "Yakubu Abdul Aziz", 
-    //     role: "Frontend Web Developer",
-    //     bio: "Highly motivated and results-driven professional with a proven track record in marketting and a passion for digital strategies. Seeking a challenging role in a dynamic company where I can leverage my skills to drive growth and contribution to the success of the organization.",
-    //     expertise: [
-    //         "Frontend Development",
-    //     ],
-    //     experience: [
-    //         {
-    //             position: "Graduate Internship",
-    //             company: "Eastern Regional Hospital, Koforidua",
-    //             duration: "2021 - 2022",
-    //             description: "Provided technical support to employees, troubleshooting hardware and software issues."
-    //         }
-    //     ],
-    //     education: {
-    //         degree: "B.Sc. Computer Engineering",
-    //         institution: "Ghana Communication Technology University (GCTU)",
-    //         // year: "2017 - 2021"
-    //     },
-    //     certifications: [],
-    //     social: {
-    //         linkedin: "https://linkedin.com/in/robert-langosh",
-    //         github: "https://github.com/rlangosh",
-    //         twitter: "https://twitter.com/rlangosh"
-    //     }
-    // },
+    {
+        image: victoria, 
+        name: "Victoria Boateema", 
+        role: "Frontend Developer",
+        bio: "A highly adaptable and goal-driven with strong verbal communication, interpersonal, and data management skills. I am a team-oreinted professional with excellent organizational and problem-solving abilities. I thrive in fast-paced environments and collaborate effectively with others to acheive goals efficiently and successfully.",
+        expertise: [
+            "Good verbal and communication skills",
+            "Proficient in Microsoft Word and PowerPoint",
+            "Proficient in data entry",
+            "Solid Understanding of social media platforms and engagement strategies",
+            "API Testing"
+        ],
+        experience: [
+            {
+                position: "Intern",
+                company: "Ghana Revenue Authority",
+                duration: "2019-Present",
+                description: "Participated in outdoor compliance activities, enhancing taxpayer outreach and engagement."
+            },
+            {
+                position: "Part-Time Personal Assistant. (Content Creation).",
+                company: "Kwadwo Sheldon Studios",
+                duration: "2022-2022",
+                description: "Managed production equipment and aided in YouTube uploads, contributing to an increase in content engagement."
+            },
+            {
+                position: "National Service Personnel (Finance & Economic Cluster Committee)",
+                company: "Parliament House of Ghana",
+                duration: "2022-2023",
+                description: "Facilitated correspondence distribution and meeting observations, strengthening interdepartmental communication."
+            },
+        ],
+        education: {
+            degree: "Master of Arts (M.A.) in International Affairs",
+            institution: "University of Ghana",
+            // year: "2023 - 2024"
+        },
+        // certifications: [
+        //     "AWS Certified Developer",
+        //     "ISTQB Advanced Level Test Automation Engineer",
+        //     "Selenium Certified Professional"
+        // ],
+        social: {
+            linkedin: "https://linkedin.com/in/robert-langosh",
+            github: "https://github.com/rlangosh",
+            twitter: "https://twitter.com/rlangosh"
+        }
+    },
     {
         image: Gabriel, 
         name: "Gabriel Kwame Addo Quainoo", 

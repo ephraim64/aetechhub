@@ -76,15 +76,15 @@ const About = () => {
         </div>
 
         {/* Team Members Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {(showAll ? team.slice(1) : team.slice(1, 4)).map((item, id) => {
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          {(showAll ? team.slice(1) : team.slice(1, 5)).map((item, id) => {
             return (
               <div
                 key={id}
                 className="flex flex-col items-center gap-3 bg-white rounded-2xl py-4 px-2 cursor-pointer hover:shadow-lg transition-all hover:scale-105 duration-300 ease-linear"
                 onClick={() => handleOpenModal(item)}
               >
-                <img src={item.image} alt="" className="rounded-2xl w-[350px] h-[400px]" />
+                <img src={item.image} alt="" className="rounded-2xl w-[350px] h-[400px] object-cover" />
                 <div className="flex flex-col gap-1">
                   <h1 className="text-xl font-semibold text-center">{item.name}</h1>
                   <p className="text-sm font-medium text-center text-purple">{item.role}</p>

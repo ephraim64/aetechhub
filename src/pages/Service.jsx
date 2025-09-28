@@ -1,12 +1,10 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { services } from '../constants';
 // import { LuGraduationCap } from 'react-icons/lu';
 import { IoIosArrowDown, IoIosArrowUp } from 'react-icons/io';
-import { BsArrowUpRight } from 'react-icons/bs';
-import ServiceImage from '../assets/ServiceImg.jpg';
 import WebDevImage from '../assets/WebDevImage.jpg';
 import ScrollToTop from '../components/ScrollToTop';
+import Hero from '../components/Hero'
 
 const Service = () => {
   const [expandedItems, setExpandedItems] = React.useState({});
@@ -20,30 +18,8 @@ const Service = () => {
 
   return (
     <div className='w-full'>
-      <div className='lg:h-[90vh] h-full md:h-[80vh] flex flex-col lg:flex-row items-center w-full py-10 px-4 lg:px-24 bg-[#BA97D10D] justify-between'>
-        <div className='flex flex-col items-start w-full lg:w-[554px] h-[201px] gap-[15px]'>
-          <h2 className='font-Montserrat font-normal text-3xl lg:text-[44px] leading-[52px] w-full lg:w-[444px] flex-wrap mb-[15px] max-md:text-center'>
-            Ready to start your next project?
-          </h2>
-          <p className='max-md:text-center'>Send Us a message today, let’s get started on your next project.</p>
-          <div className='flex text-white lg:text-xl justify-center items-center bg-gradient-to-r from-pink to-purple hover:bg-gradient-to-l hover:from-pink hover:to-purple rounded-3xl hover:scale-105 duration-500 ease-linear transition-all max-md:w-full'>
-              <Link
-                to='/contact'
-                className='py-2 px-2 lg:px-4 flex items-center gap-2'
-              >
-                Contact Us
-                <BsArrowUpRight />
-              </Link>
-          </div>
-        </div>
-        <div>
-          <img
-            src={ServiceImage}
-            alt='ReadyToWork'
-            className='w-80 lg:w-[580px] lg:h-[450.1px] max-md:mt-16'
-          ></img>
-        </div>
-      </div>
+      <Hero title={'What We Do Best'} text={'Elevate your brand with our comprehensive suite of services tailored to your needs'} />
+      
       <div className='flex flex-col items-center justify-center lg:w-full h-[201px] gap-6 px-4'>
           <h2 className='font-Montserrat font-normal text-3xl lg:text-[56px] leading-[52px] lg:flex-wrap max-md:text-center'>
             Our Services

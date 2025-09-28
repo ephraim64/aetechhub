@@ -49,7 +49,7 @@ const Home = () => {
           </div>
         </div>
       </div> */}
-      <Hero />
+      <Hero title={'#1 Effortless Solutions, Engineered To Perfection'} text={'Every corner of you business is covered meticulously by our team boned and insured professionals, Serving Business Since 2019'} />
       <div className="py-16">
         <div className="flex flex-col items-center gap-3">
           <h1 className="text-3xl lg:text-4xl">What We Do</h1>
